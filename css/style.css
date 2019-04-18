@@ -1,0 +1,58 @@
+body {
+    padding:0;
+    margin:0;
+    overflow:hidden;
+    height: 100vh;
+    position: relative;
+}
+
+@font-face {
+    font-family: 'Robotesqa 4F Italic';
+    src: url('../fonts/Robotesqa4F-Italic.eot');
+    src: url('../fonts/Robotesqa4F-Italic.eot') format('embedded-opentype'),
+    url('../fonts/Robotesqa4F-Italic.woff') format('woff'),
+    url('../fonts/Robotesqa4F-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+span {
+    font-family: 'Robotesqa 4F Italic';
+    font-size: 25px;
+    color: orange;
+    background: black;
+}
+canvas {
+    padding:0;
+    margin:0;
+}
+div.btnbg {
+    position:fixed;
+    left:0;
+    top:0;
+}
+.global_block {
+    width: 99%;
+    height: 99vh;
+    position: absolute;
+    border: 2px solid red;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.img {
+    width: 30%;
+    height: 45%;
+    margin: 2.5%;
+    background: url(../img/tanya.jpg) no-repeat center;
+    background-size: cover;
+}
+#text1 {
+    width: 60%;
+    height: 45%;
+    margin: 2.5%;
+}
